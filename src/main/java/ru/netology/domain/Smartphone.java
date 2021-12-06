@@ -5,26 +5,26 @@ import java.util.Objects;
 public class Smartphone extends Product {
     private String fabricator;
 
-        public Smartphone(String fabricator) {
-            this.fabricator = fabricator;
-        }
+    public Smartphone(String fabricator) {
+        this.fabricator = fabricator;
+    }
 
-        public Smartphone(int id, String name, int price, String fabricator) {
-            super(id, name, price);
-            this.fabricator = fabricator;
-        }
+    public Smartphone(int id, String name, int price, String fabricator) {
+        super(id, name, price);
+        this.fabricator = fabricator;
+    }
 
-        public Smartphone () {
-            super();
-        }
+    public Smartphone() {
+        super();
+    }
 
-        public String getFabricator() {
-            return fabricator;
-        }
+    public String getFabricator() {
+        return fabricator;
+    }
 
-        public void setFabricator(String fabricator) {
-            this.fabricator = fabricator;
-        }
+    public void setFabricator(String fabricator) {
+        this.fabricator = fabricator;
+    }
 
     @Override
     public boolean equals(Object o) {
